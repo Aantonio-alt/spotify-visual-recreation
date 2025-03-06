@@ -199,7 +199,7 @@ ol, ul {
   grid-template-rows: 1fr auto 1fr;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem 2rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .aside__left .img__biblio-grid1 {
   grid-column: 1;
@@ -446,19 +446,20 @@ ol, ul {
   padding-bottom: 6rem;
   background: linear-gradient(to bottom, rgb(148, 45, 45), rgba(109, 32, 32, 0.5), rgba(250, 9, 9, 0));
 }
-
-.boton__seguir {
+.menu__album .boton__seguir {
   background-color: transparent;
+  padding: 8px 8px;
   border-color: rgb(208, 208, 208);
   color: rgb(206, 206, 206);
   border-width: 0.5px;
-  width: 80px;
+  width: 90px;
   height: 40px;
   margin: 1rem 1rem 1rem 3rem;
   font-weight: 900;
-  border: solid !important;
+  border: solid;
+  border-radius: 1.5rem;
 }
-.boton__seguir:hover {
+.menu__album .boton__seguir:hover {
   transform: scale(1.05);
   transition: transform 0.1s ease-in-out;
 }
@@ -1492,7 +1493,7 @@ input[type=range]::-webkit-slider-thumb {
   border-radius: 50%;
 }
 
-.header .boton-premium, .header .boton-install, .boton__seguir, .discografia__menu .mostrar, .discografia__menu .lanzamientos, .discografia__menu .albumes, .discografia__menu .sencillo, .acerca__artista button, .creditos .boton__todo, .creditos .boton__dejar {
+.header .boton-premium, .header .boton-install, .discografia__menu .mostrar, .discografia__menu .lanzamientos, .discografia__menu .albumes, .discografia__menu .sencillo, .acerca__artista button, .creditos .boton__todo, .creditos .boton__dejar {
   display: flex;
   align-items: center;
   padding: 8px 16px;
